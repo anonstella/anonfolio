@@ -1,0 +1,245 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+  }
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  transition: 0.25s ease;
+}
+
+a:hover {
+  /* border: 2px solid gray; */
+  transform: scale(1.05, 1.05);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  /* opacity: 0; */
+  font-family: "Noto Sans", monospace;
+  /* margin: 0px; */
+  border: 6px solid black;
+  /* animation: fadeIn 1s ease-in-out forwards; */
+}
+
+.fadeInOnLoad {
+  opacity: 0;
+  animation: fadeIn 1s ease-in-out forwards;
+}
+
+.navbar {
+  top: 0;
+  overflow: hidden;
+  display: flex;
+  background-color: white;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 50px;
+  border-bottom: 3px solid black;
+  position: sticky;
+}
+
+.borders {
+  border: 6px solid black;
+}
+
+.h1White {
+  font-style: bold;
+  font-size: 120px;
+  color: white;
+  /* padding: 15px; */
+  margin: 45px;
+}
+
+.h2Light {
+  font-style: bold;
+  font-size: 100px;
+  color: white;
+  padding: 15px;
+}
+
+.h2Dark {
+  font-style: bold;
+  font-size: 32px;
+  color: black;
+  padding: 15px;
+}
+
+.topic {
+  font-size: 36px;
+  background-color: #6153cc;
+  color: #fff;
+  width: 304px;
+  padding: 5px;
+  font-weight: bold;
+  text-align: center;
+}
+
+/* Hero */
+
+.hero {
+  height: 1028px;
+  border-top: 3px solid black;
+  margin: 0px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.radial-bg {
+  background-color: #1e1e1e;
+  background-size: 40px 40px;
+  background-image: radial-gradient(
+    circle,
+    #fff 1px,
+    rgba(255, 255, 255, 0) 1px
+  );
+}
+
+.gridBg {
+  background-image: url("src/greyGrid.png");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.red-right {
+  background-color: #ff4848;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* padding: 5%; */
+  padding: 50px;
+}
+
+.yellow-right {
+  background-color: #f2bb05;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* padding: 5%; */
+  padding: 50px;
+}
+
+.green-right {
+  background-color: #46ff02;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* padding: 5%; */
+  padding: 50px;
+}
+
+/* .hero-left .hero-right {
+  flex: 1;
+} */
+
+.pLight {
+  /* font-family: monospace; */
+  font-size: 36px;
+  color: white;
+  /* padding: 10px; */
+  margin: 50px;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  /* justify-content: space-evenly; */
+}
+
+.submit {
+  font-size: 32px;
+  background-color: #c9ff5c;
+  border: 6px solid #000;
+  width: 340px;
+  height: 100px;
+}
+
+.icon-btn {
+  background-color: white;
+  border: 6px solid #000;
+  height: 100px;
+  width: 100px;
+}
+
+/* Projects */
+
+#projects {
+  display: flex;
+  height: 1028px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.projects-container {
+  background-color: #c9fbff;
+  /* border-bottom: 0px; */
+}
+
+.container-project {
+  height: 1028px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  margin: 20px;
+  /* padding: 20px; */
+}
+
+.lang {
+  color: black;
+}
+
+.project-panel {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  height: 150px;
+  width: 625px;
+}
+
+.gitIcon {
+  margin: 15px;
+}
+/* Footer */
+footer {
+  /* margin-top: 20px; */
+  background-color: #0f0f0f;
+  color: white;
+}
+
+/* The Projects Page */
+
+.split {
+  height: 1028px;
+  border-top: 3px solid black;
+  margin: 0px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  /* margin: 5px; */
+  background-color: #131313;
+}
+
+.bot {
+  background-color: #f2bb05;
+}
+
+.game {
+  background-color: #6153cc;
+}

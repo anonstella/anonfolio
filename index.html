@@ -3,7 +3,99 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <title>Portfolio</title>
   </head>
-  <body></body>
+  <body class="fadeInOnLoad">
+    <!-- <body> -->
+    <div class="navbar borders">
+      <a href="/#"><nav>Home</nav></a>
+      <a href="/#projects"><nav>Featured</nav></a>
+      <a href="/projects.html"><nav>Projects</nav></a>
+      <a href="/profile.html"><nav>Profile</nav></a>
+      <a href="/profile.html#contact"><nav>Contact</nav></a>
+    </div>
+    <div class="split borders">
+      <div class="hero-left gridBg borders">
+        <p class="topic">Hi, I'm Bintan.</p>
+        <h1 class="h1White">Student at ACSP</h1>
+        <p class="pLight">
+          I'm currently in grade 11. <br />
+          I write code as a hobby, but hope to turn it into a full-time job!
+          Games I like are: osu!, Minecraft, Touhou franchise, and more.
+        </p>
+        <br />
+        <div class="container">
+          <a href="#projects"><button class="submit">View projects</button></a>
+          <a href="https://github.com/" target="_blank"
+            ><img class="icon-btn" src="src/GitHub.png" alt="github" />
+          </a>
+        </div>
+      </div>
+      <div class="red-right borders">
+        <img src="src/imageFrame.png" alt="placeholder" class="hero-image" />
+      </div>
+    </div>
+    <div id="projects">
+      <div class="projects-container borders">
+        <div class="container-project">
+          <div class="project-panel borders">
+            <img
+              class="icon-btn gitIcon"
+              src="src/GitHub.png"
+              alt="Github Logo"
+            />
+            <h2 class="h2Dark">東方: Doubled Down</h2>
+            <br />
+            <p>Python</p>
+            <br />
+            <a href="https://github.com/anonstella/doubled-down" target="_blank"
+              ><img src="src/ExternalLink.png" alt="Goto"
+            /></a>
+          </div>
+          <div class="project-panel borders">
+            <img
+              class="icon-btn gitIcon"
+              src="src/GitHub.png"
+              alt="Github Logo"
+            />
+            <h2 class="h2Dark">CE-WebTemplate</h2>
+            <br />
+            <p>HTML, CSS, JS</p>
+            <br />
+            <a
+              href="https://github.com/anonstella/CE-WebTemplate"
+              target="_blank"
+              ><img src="src/ExternalLink.png" alt="Goto"
+            /></a>
+          </div>
+        </div>
+      </div>
+      <div class="project-info gridBg borders">
+        <p class="topic">My works</p>
+        <h2 class="h2Light">Featured Projects</h2>
+        <p class="pLight">
+          On the side are projects I've worked on in the past 2 years. These
+          projects are one of the most prestigious, most important projects that
+          explained me in today's world.
+        </p>
+
+        <p class="pLight">
+          Ran out? See more projects by clicking
+          <a href="/projects.html">here</a>
+        </p>
+      </div>
+    </div>
+    <br />
+    <footer class="footer borders">
+      <p class="footer-text">
+        &copy; 2026 Phanuruj To-ngamrak. All rights reserved.
+      </p>
+      <!-- <h4 class="footer-text">eeee</h4>
+      <h4 class="footer-text">eeee</h4>
+      <h4 class="footer-text">eeee</h4>
+      <h4 class="footer-text">eeee</h4> -->
+    </footer>
+    <script src="script.js"></script>
+  </body>
 </html>
