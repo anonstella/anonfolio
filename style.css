@@ -6,15 +6,22 @@
   }
 }
 
+a.alt {
+  /* text-decoration: none; */
+  color: black;
+  transition: 0.25s ease;
+}
+
 a {
   text-decoration: none;
-  color: black;
+  color: white;
   transition: 0.25s ease;
 }
 
 a:hover {
   /* border: 2px solid gray; */
   transform: scale(1.05, 1.05);
+  text-decoration: underline;
 }
 
 html {
@@ -80,6 +87,11 @@ body {
   padding: 5px;
   font-weight: bold;
   text-align: center;
+  transition: 0.3s ease;
+}
+
+.topic:hover {
+  transform: scale(1.1, 1.1);
 }
 
 /* Hero */
@@ -92,7 +104,7 @@ body {
   grid-template-columns: 1fr 1fr;
 }
 
-.radial-bg {
+.radialBg {
   background-color: #1e1e1e;
   background-size: 40px 40px;
   background-image: radial-gradient(
@@ -109,7 +121,14 @@ body {
   background-repeat: no-repeat;
 }
 
-.red-right {
+.checkerBg {
+  background-image: url("src/checker-bg.png");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.red {
   background-color: #ff4848;
   display: flex;
   align-items: center;
@@ -118,7 +137,7 @@ body {
   padding: 50px;
 }
 
-.yellow-right {
+.yellow {
   background-color: #f2bb05;
   display: flex;
   align-items: center;
@@ -127,8 +146,17 @@ body {
   padding: 50px;
 }
 
-.green-right {
+.green {
   background-color: #46ff02;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* padding: 5%; */
+  padding: 50px;
+}
+
+.cyan {
+  background-color: #c9fbff;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -161,6 +189,10 @@ body {
   border: 6px solid #000;
   width: 340px;
   height: 100px;
+}
+
+.submit:hover {
+  cursor: pointer;
 }
 
 .icon-btn {
@@ -205,6 +237,11 @@ body {
   background-color: white;
   height: 150px;
   width: 625px;
+  transition: 0.3s ease;
+}
+
+.project-panel:hover {
+  transform: scale(1.1, 1.1);
 }
 
 .gitIcon {
@@ -236,10 +273,41 @@ header {
   background-color: #131313;
 }
 
-.bot {
+.Bot {
   background-color: #f2bb05;
 }
 
-.game {
+.Game {
   background-color: #6153cc;
+}
+
+/* Profiles */
+
+.splitter {
+  background-color: #f2bb05;
+  text-align: center;
+}
+
+.exempt {
+  margin: 0;
+  padding: 0;
+}
+
+.info {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.toggle {
+  display: inline-flex;
+  padding: 15px;
+  font-weight: bold;
+  background-color: white;
+  border: 6px solid black;
+  margin-left: 15px;
+}
+
+span.reveal {
+  opacity: 0;
 }

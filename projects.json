@@ -1,0 +1,29 @@
+[
+  {
+    "type": "Bot",
+    "name": "Solar - Study Tracker Bot",
+    "description": "I made this bot as a final project for CS50x 2026. The bot’s purpose is to help you study, collect hours, and show off to others!",
+    "languages": "Python",
+    "link": "https://github.com/anonstella/solar_dev",
+    "preview": "",
+    "accent_colour": "red"
+  },
+  {
+    "type": "Bot",
+    "name": "Matsuri V2",
+    "description": "A discord chat bot made in Python. It can chat with users thanks to openrouter: an AI provider hub.",
+    "languages": "Python",
+    "link": "https://github.com/consection/matsuri_v2",
+    "preview": "",
+    "accent_colour": "green"
+  },
+  {
+    "type": "Game",
+    "name": "東方：Doubled Down",
+    "description": "A game made in Python. Inspired by the original Touhou series, it brings a lightweight version made in pygame-ce to life.",
+    "languages": "Python",
+    "link": "https://github.com/anonstella/doubled-down",
+    "preview": "",
+    "accent_colour": "yellow"
+  }
+]
