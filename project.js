@@ -28,7 +28,7 @@ fetch("./projects.json")
         </div>
       </div>
       <div class="${item.accent_colour} borders">
-        <img src="src/imageFrame.png" alt="placeholder" class="display-image" />
+        <img src="${item.preview}" alt="placeholder" class="display-image" />
       </div>
       `;
 
