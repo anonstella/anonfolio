@@ -1,6 +1,6 @@
 const target = document.querySelector(".container-project");
 
-fetch("../featured.json")
+fetch("./featured.json")
   .then((response) => response.text())
   .then((text) => {
     const raw = JSON.parse(text);
